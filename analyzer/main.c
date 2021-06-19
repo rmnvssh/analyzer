@@ -18,6 +18,7 @@ int main()
 	thirdFile = readFile(4);
 
 	nestedLoopsAndLooping(firstFile);
+	recursion(firstFile);
 
 	writeFile(firstFile, 1);
 	writeFile(secondFile, 2);
