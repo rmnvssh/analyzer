@@ -17,6 +17,8 @@ int main()
 	firstHeader = readFile(3);
 	thirdFile = readFile(4);
 
+	nestedLoopsAndLooping(firstFile);
+
 	writeFile(firstFile, 1);
 	writeFile(secondFile, 2);
 	writeFile(firstHeader, 3);
