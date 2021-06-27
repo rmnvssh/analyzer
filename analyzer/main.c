@@ -21,8 +21,8 @@ int main()
 	checkCorrectNames(firstFile);
 	nestedLoopsAndLooping(firstFile);
 	recursion(firstFile);
-	//changeComments(firstFile);
-	//functionCallGraph(secondFile, thirdFile);
+	changeComments(firstFile);
+	functionCallGraph(secondFile, thirdFile);
 
 	writeFile(firstFile, 1);
 	writeFile(secondFile, 2);

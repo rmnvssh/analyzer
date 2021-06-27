@@ -46,3 +46,5 @@ deleteFromSymbol(int line, int symbol, char** data);
 deleteFromSymbolUntilSymbol(int line, int symbol, char** data, int count);
 addToData(int line, int symbol, char** data, char* tempStr);
 addToEnd(int line, int symbol, char** data, char* tempStr);
+
+functionCallGraph(char** data, char** subData);
