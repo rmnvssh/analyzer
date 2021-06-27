@@ -22,7 +22,7 @@ int main()
 	nestedLoopsAndLooping(firstFile);
 	recursion(firstFile);
 	changeComments(firstFile);
-	//functionCallGraph(secondFile, thirdFile);
+	functionCallGraph(secondFile, thirdFile);
 
 	writeFile(firstFile, 1);
 	writeFile(secondFile, 2);
