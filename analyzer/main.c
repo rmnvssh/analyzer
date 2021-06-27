@@ -17,8 +17,12 @@ int main()
 	firstHeader = readFile(3);
 	thirdFile = readFile(4);
 
+	unusedStaff(firstFile);
+	checkCorrectNames(firstFile);
 	nestedLoopsAndLooping(firstFile);
 	recursion(firstFile);
+	changeComments(firstFile);
+	functionCallGraph(secondFile, thirdFile);
 
 	writeFile(firstFile, 1);
 	writeFile(secondFile, 2);
