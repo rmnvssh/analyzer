@@ -30,7 +30,7 @@ void SecFunc()
 int main()
 {
 	int abs, var, cash;
-	/* int money; */
+	// int money; 
 	var++;
 	int a, b, c;
 	int nameofVar;
@@ -50,19 +50,19 @@ int main()
 			scanf("%d", &a[i]);
 		}
 	
-	/* 1234
-	 5678
-	 91234 */
+	// 1234
+	// 5678
+	// 91234 
 	PrintTitle("Initial array:\n");
 	for (int i = 0; i < n; i++)
 	{
 		printf("%d ", a[i]);
 	}
 	printf("\n");
-	/* 1234
-	 5678 */PrintTitle("Target element: ");
+	// 1234
+	PrintTitle("Target element: ");// 5678 
 	PrintTitle("Target element: ");
-	/* printf("okey"); */printf("%d\n", item);
+	printf("%d\n", item);// printf("okey"); 
 	for (int i = 0; i < n; i++)
 	{
 		if (a[i] == item) 
